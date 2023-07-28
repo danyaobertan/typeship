@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",            // Specify the ECMAScript target version
+    "module": "commonjs",       // Specify module format (Node.js uses commonjs)
+    "outDir": "./dist",         // Output directory for transpiled code
+    "rootDir": "./src",         // Root directory for your TypeScript code
+    "strict": true,             // Enable strict type-checking
+    "esModuleInterop": true     // Enable compatibility with ES modules and commonjs
+  },
+  "include": ["src/**/*.ts"],   // Specify files to include for TypeScript compilation
+  "exclude": ["node_modules"]   // Specify folders to exclude from TypeScript compilation
+}
